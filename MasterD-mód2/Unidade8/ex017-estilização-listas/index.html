@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Estilização de listas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tiago Marques de Jesus Oliveira">
+    <meta name="description" name="Estilização de listas">
+    <style>
+        body{
+            border: solid 2px grey;
+            padding-bottom: 50px;
+        }
+        h1{
+            font-weight: bold;
+        }
+        ol{
+            background-color:rgb(88, 97, 231);
+            padding:20px;
+            padding-left:50px;
+            list-style-position: outside;
+            
+        }
+        ul{
+            background-color: rgb(240, 183, 60);
+            padding: 20px;
+            list-style-position: inside;
+        }
+        .roman{
+            list-style-type: upper-roman;
+        }
+        .square{
+            list-style-type: square;
+        }
+        ol li{
+            background-color:rgb(87, 193, 243);
+            padding: 10px;
+        }
+        ul li{
+            background-color:rgb(233, 223, 117);
+            padding:10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Estilização de listas:</h1>
+    <ol>
+        <li class="roman">Texto 1</li>
+        <li class="roman">Texto 2</li>
+        <li class="roman">Texto 3</li>
+    </ol>
+    <br>
+        <ul>
+            <li class="square">Texto 1</li>
+            <li class="square">Texto 2</li>
+            <li class="square">Texto 3</li>
+        </ul>
+</body>
+</html>

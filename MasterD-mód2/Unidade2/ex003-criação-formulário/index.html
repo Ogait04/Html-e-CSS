@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tiago Marques de Jesus Oliveira">
+    <meta name="description" content="Esta webpage é um formulário de entrada num curso e esta escrito em html">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <hr>
+    <form name="webdevolpment" method="get" >
+        Nome <input type="text" name="Nome">
+        <br>
+        Introduza a sua password <input type="password" name="Password">
+        <br>
+        Data de Nascimento <input type="date" name="data de nascimento">
+        <br>
+        Telefone <input type="tel" name="telefone">
+        <br>
+        Email <input type="email" name="Email">
+        <br>
+        Género<br>
+        <input type="radio" name="Masculino"> Masculino
+        <br>
+        <input type="radio" name="Feminino"> Feminino
+        <br>
+        <input type="radio" name="Outros"> Outros
+        <br>
+        Nacionalidade<br>
+        <select name="nacionalidade">
+            <option name="Portuguesa" id="Portuguesa" value="Portuguesa">Portuguesa</option>
+            <option name="Francesa" id="Francesa" value="Espanhola">Francesa</option>
+            <option name="Espanhola" id="Espanhola" value="Espanhola">Espanhola</option>
+        </select>
+        <br>
+        Escolheu este curso por motios profissionais?
+        <br>
+        <input type="checkbox" name="sim" checked> Sim
+        <br>
+        <input type="checkbox" name="não"> Não 
+        <br>
+        Descreva as suas motivações para frenquentar este curso.
+        <br>
+        <textarea cols="50" rows="50"></textarea>
+        <br>
+        Numa escala de 1 a 5 como avalia este curso?
+        <br>
+        <input type="range" name="nota avaliativa do curso" min="1" max="5">
+        <hr>
+       <button type="submit">Enviar</button>
+       <button type="reset">Apagar</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(237,237,237) ;
+}
+h1{
+    text-align: center;
+    color: blue;
+    padding: 20px;
+    background-color: #d7d7d7;
+}
+h1::after,h1::before{
+    content:"_______";
+    color: blue;
+}
+.meu_título{
+    text-align: center;
+    color: #e8b05d;
+}
+p{
+    padding: 20px;
+}
+#parágrafo_2{
+    background-color: #d7d7d7;
+}
+footer{
+    text-align: right;
+}

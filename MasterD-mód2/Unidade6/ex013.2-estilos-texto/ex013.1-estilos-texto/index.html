@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tiago Marques De Jesus Oliveira">
+    <meta name="description" content="Exercicio sobre estilos de texto.">
+    <title>Estilos de texto </title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        color: white;
+        background-color: rgb(219, 44, 99);
+    }
+    #titulo_2{
+        direction: rtl;
+        color: rgb(57, 80, 163);
+        font-family: Verdana;
+        font-size: 30px;
+    }
+    hr{
+        width: 50%;
+    }
+    .paragrafo_1{
+        direction: ltr;
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+    #paragrafo_2{
+        font-style: italic;
+        direction: rtl;
+        font-size: 4em;
+        word-spacing: 20px;
+    }
+    a{
+        text-decoration: overline;
+    }
+    .paragrafo_3{
+        text-indent: 50px;
+    }
+    #frase_rasurada{
+        text-decoration: line-through;
+    }
+    #frase_bold{
+        font-weight: bold;
+    }
+    #texto_uppercase{
+        text-transform: uppercase;
+        background-color:aqua;
+    }
+
+    #texto_lowercase{
+        color: #7a39a3;
+    }
+    #texto_capitalizado{
+        text-transform: capitalize;
+        font-family: Arial;
+        font-size: 24px;
+    }
+</style>
+<body>
+<h1>Eu sou de cor branca e o meu fundo é vermelho no sistema rgb.</h1>
+<h2 id="titulo_2">Eu devo ter um id="titulo_2", alinhado a direita e de cor #3950a3, e deve ser escrito em "verdana" com o tamanho da letra 30px.</h2>
+<hr>
+ <p class="paragrafo_1">Esta escrito da esquerda para a direita, tamanho 2 em, espaçamento de letra 3px e pertence  classe chamada paragrafo_1.</p>
+ <p id="paragrafo_2">Este paragrafo tem id paragrafo_2, esta escrito em italico da direita para a esquerda, tamanho 4 em e entre palavras tem um espacamento de 20px.</p>
+<p>A linha inferior que costuma estar em baixo do link <a href="(https://www.lipsum.com/feed/html)">Lipsum</a> vai ser substituida por uma linha superior.</p>
+    <p class="paragrafo_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Nulla est magna, posuere ut quam ut, auctor facilisis turpis.</p>
+    <p id="frase_rasurada">Donec id ex ac
+    felis auctor feugiat quis vitae ex. In hac habitasse platea dictumst.
+    Sed vel blandit lorem, vel venenatis.</p>
+    <p id>Nunc molestie eros placerat dolor varius, quis sagittis ipsum molestie. 
+    Praesent vulputate
+    felis vel sagittis auctor. Morbi bibendum nisl at est rutrum, vitae
+    pulvinar velit tincidunt.</p> 
+    <p id="frase_bold">Morbi posuere, augue ut sodales dapibus,
+    libero eros fermentum ligula, in feugiat felis dui vitae sem. Aliquam vulputate risus a est rhoncus faucibus. </p>
+    <hr>
+    <p >Para acabar vamos:</p>
+<p id="texto_uppercase"> por esta frase em maiusculas e com fundo amarelo.</p>
+<p id="texto_lowercase">Esta em minusculas e com cor de letra roxo.</p>
+<p id="texto_capitalizado">E por fim, as primeiras letras desta frase devem ser maisculas e com fonte arial de tamanho 24px.</p>
+
+</body>
+</html>

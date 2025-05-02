@@ -1,0 +1,84 @@
+header{
+    text-align: center;
+    background-color: black;
+}
+h1,h2,h3{
+    color: orangered;
+}
+h1,h1::after,h1::before{
+    font-size: 56px;
+    content:"..."
+}
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+}
+p{
+    font-size: 36px;
+}
+nav,aside,footer{
+    text-align: center;
+
+}
+nav,aside{
+    background-color: orange;
+}
+#picJD{
+    width: 300px;
+}
+.nomepagina{
+    font-size: 44px;
+    text-align: right;
+}
+.paragrafo2{
+    background-color: orange;
+}
+#JohnDoe_text{
+    font-weight: bold;
+}
+a:link,a:visited,a:hover{ 
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    font-size: 36px;
+    color: #000000;
+}
+a.botao{
+    background-color: rgb(250, 173, 101);
+    font-size: 36px;
+}
+div.gostos{
+    background-color: #000000}
+#tit_gosto{
+    font-family: 'Lucida Console';
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+h4{
+    letter-spacing: 30px;
+    text-indent: 30px;
+    color: #ebb52b;
+}
+li{
+    color:#ffffff;
+}
+#picbook-JD{
+    width: 400px;
+}
+#picplane-JD{
+    width: 400px;
+}
+.mais_sobre{
+    font-style: italic;
+    color: #ffffff;
+}
+.autores,.destinos,.fotografias{
+    color: white;
+}
+
+.fotografias{
+    font-style: italic;
+}

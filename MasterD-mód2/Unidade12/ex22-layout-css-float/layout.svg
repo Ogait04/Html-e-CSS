@@ -1,0 +1,135 @@
+<svg width="756.0px" height="367.0px"
+     viewBox="0 0 1512 734"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <pattern id="grid" width="80" height="30" y="30" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L 80 0 80 30 0 30 Z" stroke-width="2" stroke="black" fill="white"/>
+    </pattern>
+
+  </defs>
+
+
+
+  <rect width="100%" height="180px" fill="url(#grid)" x="0" y="0"/>
+
+  <rect fill="rgb(255, 255, 255)"
+            stroke="rgb(0, 0, 0)"
+            stroke-width="0px"
+            stroke-linecap="round"
+            x="0.0"
+            y="0.0"
+            width="1512.0"
+            height="734.566650390625"/>
+        <rect fill="rgb(241, 241, 180)"
+            stroke="rgba(0, 0, 0, 0.2)"
+            stroke-width="6px"
+            stroke-linecap="round"
+            x="5.100006103515625"
+            y="5.100006103515625"
+            width="1501.816650390625"
+            height="114.0"/>
+        <text
+	    x="43.100006103515625"
+	    y="62.100006103515625"
+	    style="
+                font-weight: 400;
+                font-size: 32px;
+                font-family: serif;
+                fill: rgb(0, 0, 0);
+                dominant-baseline: text-bottom;
+            ">Header</text>
+
+        <rect fill="rgb(181, 176, 242)"
+            stroke="rgba(0, 0, 0, 0.2)"
+            stroke-width="6px"
+            stroke-linecap="round"
+            x="5.100006103515625"
+            y="129.28334045410156"
+            width="370.36663818359375"
+            height="476.0"/>
+        <text
+	    x="43.100006103515625"
+	    y="186.28334045410156"
+	    style="
+                font-weight: 400;
+                font-size: 32px;
+                font-family: serif;
+                fill: rgb(0, 0, 0);
+                dominant-baseline: text-bottom;
+            ">Navigation</text>
+
+        <rect fill="rgb(242, 196, 221)"
+            stroke="rgba(0, 0, 0, 0.2)"
+            stroke-width="6px"
+            stroke-linecap="round"
+            x="385.6499938964844"
+            y="129.28334045410156"
+            width="740.7166748046875"
+            height="476.0"/>
+        <text
+	    x="423.6499938964844"
+	    y="186.28334045410156"
+	    style="
+                font-weight: 400;
+                font-size: 32px;
+                font-family: serif;
+                fill: rgb(0, 0, 0);
+                dominant-baseline: text-bottom;
+            ">Main content</text>
+
+        <rect fill="rgb(166, 221, 242)"
+            stroke="rgba(0, 0, 0, 0.2)"
+            stroke-width="6px"
+            stroke-linecap="round"
+            x="1136.550048828125"
+            y="129.28334045410156"
+            width="370.3666687011719"
+            height="476.0"/>
+        <text
+	    x="1174.550048828125"
+	    y="186.28334045410156"
+	    style="
+                font-weight: 400;
+                font-size: 32px;
+                font-family: serif;
+                fill: rgb(0, 0, 0);
+                dominant-baseline: text-bottom;
+            ">Side content</text>
+
+        <rect fill="rgb(193, 242, 218)"
+            stroke="rgba(0, 0, 0, 0.2)"
+            stroke-width="6px"
+            stroke-linecap="round"
+            x="5.100006103515625"
+            y="615.4666748046875"
+            width="1501.816650390625"
+            height="114.0"/>
+        <text
+	    x="43.100006103515625"
+	    y="672.4666748046875"
+	    style="
+                font-weight: 400;
+                font-size: 32px;
+                font-family: serif;
+                fill: rgb(0, 0, 0);
+                dominant-baseline: text-bottom;
+            ">Footer</text>
+
+        <rect fill="rgba(0, 0, 0, 0)"
+            stroke="rgb(0, 0, 0)"
+            stroke-width="0px"
+            stroke-linecap="round"
+            x="0.0"
+            y="0.0"
+            width="0.0"
+            height="0.0"/>
+        
+
+<!-- Gridlines -->
+<!-- x -->
+
+<!-- y -->
+
+
+</svg>

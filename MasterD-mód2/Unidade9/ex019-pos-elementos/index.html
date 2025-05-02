@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <title>Criação de webpage com posicionamento de elementos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tiago Marques de Jesus Oliveira">
+    <meta name="description" content="Criação de webpage com posicionamento de elementos">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            border: solid 2px grey;
+        }
+        h2{
+            color: white;
+            background-color: rgb(124, 187, 242);
+            text-align: center;
+            width: 50%;
+            padding:20px;
+            margin:auto;
+        }
+        #container{
+            background-image: url("masterd01.1200.jpg");
+           
+            width: 100%;
+            height: 800px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+
+        }
+        .topleft{
+            position:absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+            z-index: 1;
+        }
+        .topright{
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+            z-index: 1;
+            
+        }
+        .bottomleft{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+            z-index: 1;
+        }
+        .bottomright{
+            position:absolute;
+            bottom:8px;
+            right:16px;
+            font-size: 18px;
+            z-index: 1;
+        }
+        .center{
+            position: absolute;
+            font-size: 28px;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Exercicio prático-Unidade 9</h2>
+        <p>Neste exercicio prático vamos identificar os cantos e o centro da imagem</p>
+    </header>
+    <div id="container">
+        <div class="topleft">canto superior esquerdo</div>
+        <div class="topright">canto superior direito</div>
+        <div class="bottomright">canto inferior direito</div>
+        <div class="bottomleft">canto inferior esquerdo</div>
+        <div class="center">Centro</div>
+    </div>
+</body>
+</html>

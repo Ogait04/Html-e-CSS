@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bordas, cor de fundo e cor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tiago Marques de Jesus Oliveira">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            border: solid;
+        }
+        div#caixa1{
+            width: 100%;
+            height: 150px;
+           background-image: url("fotos/LogoMasterD200.png");
+           background-repeat: no-repeat;
+           background-position: center;
+        }
+        span.MasterD{
+            font-style: italic;
+        }
+        #slogan_masterd{
+            text-align: center;
+            color:rgb(228, 111, 61);
+        }
+        div#caixa2{
+            background-image: url("imagem_fundo.jpg");
+            width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-position: center;
+           text-align: center;
+           
+        }
+        .caixa2_paragrafo{
+            color: rgb(228, 111, 61);
+            width: 100%;
+            background-color:rgba(245, 230, 230, 0.474);
+            font-size: 20px;
+        }
+        h1{
+            color: white;
+           line-height: 70px;
+           font-style: italic;
+        }
+        button{
+            color: rgb(0, 0, 0);
+            background-color: rgb(228, 111, 61);
+            width: 100px;
+            height: 50px;
+        }
+        #caixa3{
+            background-color:rgba(215, 138, 105, 0.462);
+            border-style: dotted;
+            border-color:rgb(215, 138, 105);
+        }
+       h3{
+        text-indent: 20px;
+        background-image:linear-gradient(to right,rgb(235, 76, 8),rgb(228, 111, 61));
+       }
+
+    </style>
+</head>
+<body>
+<div id="caixa1"></div>
+<p id="slogan_masterd"><span class="MasterD">MasterD</span> 25 anos a preparar profissionais</p>
+</div>
+    <hr>
+<div id="caixa2">
+    <h1>Cursos Master D</h1>
+    <p class="caixa2_paragrafo">Torne-se num profissional de sucesso</p>
+    <button>+informações</button>
+</div>
+<div id="caixa3">
+<h3>Cursos em destaque <span class="MasterD">MasterD</span></h3>
+<ul>
+    <li>Curso de auxiliar de farmácia</li>
+    <li>Curso de marketing digital</li>
+    <li>Curso de fotografia</li>
+</ul>
+</div>
+</body>
+</html>

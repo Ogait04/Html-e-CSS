@@ -1,69 +1,7 @@
+@charset "UTF-8";
+
 *{
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
-body{
-    font-size: 15px;
-    font-family:'Courier New', Courier, monospace
-}
-
-.header{
-    background-color: rgb(127, 131, 255);
-    margin-bottom: 10px;
-}
-
-.logo{
-    color: white;
-    height: 200px;
-    width: 200px;
-    border: solid 1px black;
-    margin: 20px 0;
-    background-color:rgba(10, 37, 58, 0.329);
-}
-
-.name{
-    color: white;
-    height: 200px;
-    margin: 20px 0;
-}
-
-.nav{
-    background-color:darkblue;
-    color: white;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.main{
-    background-color: white;
-    margin:auto;
-}
-
-.contact-box{
-    background-color: darkblue;
-    color: white;
-    height: 50px;
-    margin-top:10px;
-}
-
-.contact-box div{
-    border: solid 1px white;
-}
-
-.service-box{
-    height: 100px;
-}
-
-.col-4{
-    border: solid 1px black;
-    background-color: rgba(220, 213, 213, 0.165);
-}
-
-.footer{
-    margin-top: 10px;
-    background-color: grey;
-    padding: 20px;
-}
-

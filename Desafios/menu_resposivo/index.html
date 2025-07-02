@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu hamburguer</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    
 </head>
 <body>
     <header>
@@ -13,7 +15,9 @@
             Meu Site
         </h1>
 
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
+        <menu class="itens" >
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -48,5 +52,17 @@
 
     </main>
     
+    <script>
+        function clickMenu(){
+            if(itens.styke.display == "block") {
+                itens.style.display = "none";
+            }
+            else{
+                itens.style.display = "block";
+            }
+            }
+        
+    
+    </script>
 </body>
 </html>

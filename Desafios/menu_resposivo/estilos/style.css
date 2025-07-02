@@ -15,24 +15,26 @@ body{
 
 header{
     background-color: rgb(133, 133, 133);
-    text-align: center;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 header h1{
     margin-bottom: 20px;
     color: white;
+    text-align: center;
 }
 span#burguer{
-    padding: 10px;;
+    padding: 10px;
     display: block;
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(64, 64, 64);
+    color: white;
     
 }
 
 span#burguer:hover{
-    background-color:rgb(40, 40, 40);
-    color: white;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 menu{
     display: none;
@@ -61,8 +63,8 @@ menu li:hover{
 
 main{ 
     width: 450px;
-    margin-top: 10px;
     margin: auto;
+    margin-top: 20px;
     background-color: white;
     border-radius: 10px;
     padding: 10px;

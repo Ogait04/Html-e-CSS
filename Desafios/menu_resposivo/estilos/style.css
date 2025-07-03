@@ -16,6 +16,7 @@ body{
 header{
     background-color: rgb(133, 133, 133);
     padding-top: 20px;
+    
 }
 
 header h1{
@@ -28,6 +29,7 @@ span#burguer{
     display: block;
     background-color: rgb(64, 64, 64);
     color: white;
+    text-align: center;
     
 }
 

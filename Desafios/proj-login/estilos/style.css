@@ -35,6 +35,7 @@ section#login{
     width: 250px;
     height: 450px;
     border-radius: 20px;
+    
 }
 
 #imagem{
@@ -42,10 +43,12 @@ section#login{
     background-size: cover;
     height: 200px;
     border-radius: 20px 20px 0px 0px;
+    display: block;
 }
 
 #formulario{
     padding: 5px;
+    display: block;
 }
 #formulario h1{
     text-align: center;
@@ -59,8 +62,9 @@ div.mail, div.pass{
     background-color:#64B9EA;
     border-radius: 5px;
     margin: 10px;
-    
+      
 }
+
 
 
 
